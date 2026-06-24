@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huynh Ngoc Nguyen — CV</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: #fff;
+    color: #000;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 10.5pt;
+    line-height: 1.38;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    max-height: 297mm;
+    padding: 14mm 16mm 12mm 16mm;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .header h1 {
+    font-size: 16pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 3px;
+  }
+
+  .header .contact {
+    font-size: 9.8pt;
+    color: #000;
+    line-height: 1.5;
+  }
+
+  .header .contact a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    margin-bottom: 7px;
+  }
+
+  .section-label {
+    font-size: 10.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border-top: 1.4px solid #000;
+    border-bottom: 0.5px solid #000;
+    padding: 1.5px 0;
+    margin-bottom: 5px;
+    color: #000;
+  }
+
+  /* ── EDUCATION ── */
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3px;
+  }
+
+  .entry-left { flex: 1; }
+
+  .entry-date {
+    font-size: 10.5pt;
+    color: #000;
+    white-space: nowrap;
+    padding-left: 12px;
+    flex-shrink: 0;
+  }
+
+  .entry-org {
+    font-weight: 700;
+    font-size: 10.5pt;
+  }
+
+  .entry-detail {
+    font-style: italic;
+    font-size: 10.5pt;
+  }
+
+  /* ── SKILLS ── */
+  .skill-row {
+    display: flex;
+    margin-bottom: 2px;
+    font-size: 10.5pt;
+  }
+
+  .skill-cat {
+    font-weight: 700;
+    white-space: nowrap;
+    margin-right: 4px;
+    flex-shrink: 0;
+  }
+
+  .skill-val { color: #000; }
+
+  /* ── PROJECT ── */
+  .project {
+    margin-bottom: 6px;
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+
+  .project-title {
+    font-weight: 700;
+    font-size: 10.5pt;
+  }
+
+  .project-date {
+    font-size: 10.5pt;
+    white-space: nowrap;
+    padding-left: 12px;
+    flex-shrink: 0;
+  }
+
+  .project-sub {
+    font-style: italic;
+    font-size: 10.5pt;
+    margin-bottom: 2px;
+  }
+
+  ul.bullets {
+    list-style: disc;
+    padding-left: 16px;
+    margin: 0;
+  }
+
+  ul.bullets li {
+    font-size: 10.5pt;
+    line-height: 1.42;
+    margin-bottom: 1px;
+    color: #000;
+  }
+
+  @media print {
+    html, body { margin: 0; }
+    .page { width: 210mm; height: 297mm; margin: 0; }
+    @page { size: A4; margin: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Huynh Ngoc Nguyen</h1>
+    <div class="contact">
+      Ho Chi Minh City, Vietnam &nbsp;|&nbsp; 0916 433 838 &nbsp;|&nbsp;
+      <a href="mailto:huynhngocnguyen24@gmail.com">huynhngocnguyen24@gmail.com</a>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/NarieWynn" target="_blank">github.com/NarieWynn</a>
+    </div>
+  </header>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <div class="section-label">Education</div>
+    <div class="entry">
+      <div class="entry-left">
+        <div class="entry-org">Ho Chi Minh City International University (HCMIU) — VNU-HCM</div>
+        <div class="entry-detail">Bachelor of Science in Computer Science</div>
+      </div>
+      <div class="entry-date">2023 – 2028 (Expected)</div>
+    </div>
+  </section>
+
+  <!-- TECHNICAL SKILLS -->
+  <section class="section">
+    <div class="section-label">Technical Skills</div>
+    <div class="skill-row">
+      <span class="skill-cat">Programming Languages:</span>
+      <span class="skill-val">Java, C++, SQL, Bash Scripting</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-cat">Frameworks &amp; Tools:</span>
+      <span class="skill-val">Qt Framework, QML, JDBC, Git, GitHub</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-cat">Core Concepts:</span>
+      <span class="skill-val">Object-Oriented Programming (OOP), Relational Database Management, Systems Architecture</span>
+    </div>
+  </section>
+
+  <!-- TECHNICAL PROJECTS -->
+  <section class="section">
+    <div class="section-label">Technical Projects</div>
+
+    <!-- Project 1 -->
+    <div class="project">
+      <div class="project-header">
+        <div class="project-title">Smart Parking Space Management &amp; Database System</div>
+        <div class="project-date">2026</div>
+      </div>
+      <div class="project-sub">Database and Backend Developer &nbsp;&middot;&nbsp; Academic Project &nbsp;&middot;&nbsp; Java, SQL, JDBC</div>
+      <ul class="bullets">
+        <li>Designed and normalized a relational database schema from 1NF through 3NF to eliminate data redundancy and ensure strict referential integrity across all entities.</li>
+        <li>Developed optimized SQL queries incorporating multi-table JOINs, subqueries, and aggregate functions to power real-time data lookups and logging components.</li>
+        <li>Built a robust data access layer in Java utilizing JDBC to safely manage database transaction boundaries under concurrent user workloads.</li>
+      </ul>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <div class="project-header">
+        <div class="project-title">Custom Desktop Environment Architecture</div>
+        <div class="project-date">Present</div>
+      </div>
+      <div class="project-sub">Core Systems and UI Developer &nbsp;&middot;&nbsp; Personal Project &nbsp;&middot;&nbsp; C++, Qt Framework, QML, Git</div>
+      <ul class="bullets">
+        <li>Developing a modular desktop window management interface core in C++ integrated with a fluid, native user experience layer built via QML.</li>
+        <li>Implementing model-view architectural patterns to strictly decouple system-level logic from UI rendering processes, ensuring long-term testability and code maintainability.</li>
+        <li>Utilizing Qt Core and Qt GUI modules to process system events, handle custom window behaviors, and manage application lifecycles efficiently.</li>
+        <li>Leveraging Git for feature-branch version control to maintain structured tracking and integration of independent components.</li>
+      </ul>
+    </div>
+
+  </section>
+
+</div>
+</body>
+</html>
